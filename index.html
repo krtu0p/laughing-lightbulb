@@ -33,7 +33,7 @@
             di berbagai daerah perkotaan dan pelosok desa.<br><br>Contohnya, kerajinan dari bahan keras kayu, bambu, rotan, kaleng, kaca, dan sebagainya. Pasar lokal maupun impor telah mendominasi 
             penggunaan bahan keras tersebut sebagai bahan kerajinan.<br><br>B. Prinsip kerajinan bahan keras<br><br>1. Keunikan Kerajinan bahan keras<br><br>
         Dalam kerajinan bahan keras terdapat beragam keunikan tersendiri tergantung pada bahan yang digunakan, hal ini menyebabkan adanya beragam teknik teknik yang digunakan untuk membuat kerajinan bahan keras. contohnya seperti kayu, pada bahan kayu mempunyai keunikannya tersendiri yaitu terdapat pada serat/teksturnya yg tidak dapat ditemui pada bahan yang lainnya.<br><br>
-        2. Keragaman muatan nilai dalam produk kerajinan<br><br>sebelum membuat produk/ suatu kerajinan pastinya berawal dari berbagai bentuk ide maupun gagasan dari manusia yg berasal dari suatu pikiran yanng kehendak melalui suatu tindak, cipta, dan karsa. Pesan tersebut dapat diperoleh berdasarkan proses berkarya yang dapat dibagi menjadi berbagai hal sebagai berikut
+        2. Keragaman muatan nilai dalam produk kerajinan<br><br>sebelum membuat produk/ suatu kerajinan pastinya berawal dari berbagai bentuk ide maupun gagasan dari manusia yg berasal dari suatu pikiran yanng kehendak melalui suatu tindak, cipta, dan karsa. Pesan tersebut dapat diperoleh berdasarkan proses berkarya yang dapat dibagi menjadi berbagai hal sebagai berikut<span id="dots">...</span><span id="more">
 <br>a. Produk dengan nilai fungsional
 <br>b. Produk dengan nilai informatif
 <br>c. Produk dengan nilai simbolik
@@ -42,8 +42,9 @@
 <br><br>B. Faktor Ekonomis, Meliputi<br><br>ㅤㅤ1. Selera masyarakat terhadap produk<br>ㅤㅤ2. Nilai jual dan keberadaan suku cadang<br>ㅤㅤ3. Kebijakan penciptaan<br>ㅤㅤ4. Pemasaran yang tahan persaingan<br>ㅤㅤ5. Sistem pemasokan atau distribusi
             <br><br>C. Faktor Ekonomis, Meliputi<br><br>ㅤㅤ1. Kenyamanan<br>ㅤㅤ2. Keamanan<br>ㅤㅤ3. Kesesuaian<br>ㅤㅤ4. kepraktisan
             <br><br>D. Faktor Sains Dan Teknologi, Meliputi<br><br>ㅤㅤ1. Terdapat unsur kebaruan atau temuan baru<br>ㅤㅤ2. mengikuti perkembangan pengetahuan<br>ㅤㅤ3. selalu mengikuti perkembangan teknologi
-<br><br>E. Faktor estetika, meliputi<br><br>1. Menampilkan bentuk dan keindahan<br>ㅤ2.Memiliki daya pikat<br>ㅤㅤ3. Terjadi keserasian<br>ㅤㅤ4. Kesan atau gugahan yang ditampilkan<br><br>F. Faktor Kondisi Lingkungan, Meliputi<br><br>ㅤㅤ1. nilai budaya<br>ㅤㅤ2. kondisi lingkungan atau wilayah setempat<br><br>Sekian Informasi Yang Kami Berikan Semoga Informasi Yang Kami Berikan Berguna Untuk Kalian:><br><br><img src="ezgif.com-gif-maker.webp" id="ayonima">
-        <img src="ezgif.com-gif-maker (1).webp" id="ayonim"></p>
+<br><br>E. Faktor estetika, meliputi<br><br>1. Menampilkan bentuk dan keindahan<br>ㅤ2.Memiliki daya pikat<br>ㅤㅤ3. Terjadi keserasian<br>ㅤㅤ4. Kesan atau gugahan yang ditampilkan<br><br>F. Faktor Kondisi Lingkungan, Meliputi<br><br>ㅤㅤ1. Nilai budaya<br>ㅤㅤ2. Kondisi lingkungan atau wilayah setempat<br><br>Sekian Informasi Yang Kami Berikan Semoga Informasi Yang Kami Berikan Berguna Untuk Kalian:><br><br><img src="ezgif.com-gif-maker.webp" id="ayonima">
+        <img src="ezgif.com-gif-maker (1).webp" id="ayonim"></span></p>
+    <button onclick="reMore()" class="button" id="rBtn">Read More</button>
     </div>
 
     <script>
@@ -63,6 +64,21 @@
             text.style.marginTop = value * 1.5 + "px";
             btn.style.marginTop = value * 1.5 + "px";
         })
+        function reMore(){
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var rBtn = document.getElementById("rBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                rBtn.innerHTML = "Read More";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                rBtn.innerHTML = "Read Less";
+                moreText.style.display = "inline";
+            }
+        }
        
         
     </script>
