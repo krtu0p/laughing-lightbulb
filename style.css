@@ -157,3 +157,13 @@ section img#mountains_front
     color:#fff;
     z-index: 10;
 }
+
+
+.sec img#ayonima
+{
+    left: 345px;
+    position: relative;
+    justify-content: center;
+    width: 21%;
+    height: 21%;
+}
