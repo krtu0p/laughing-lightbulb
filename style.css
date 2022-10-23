@@ -168,10 +168,34 @@ section img#mountains_front
     height: 21%;
 }
 
-.sec img#ayonim
+p img#ayonim
 {
-  position: fixed;
-  justify-content: center;
-  width: 30%;
-  height: 30%;
+    position: relative;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    top: -79px;
+    left: 303px;
+
+
+}
+
+#more
+{
+    display: none;
+}
+
+div .button#rBtn
+{
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 10px
+}
+
+div .button#rBtn:hover,
+div .button#rBtn.active
+{
+    background: #1c0522;
+    color: #fff;
 }
