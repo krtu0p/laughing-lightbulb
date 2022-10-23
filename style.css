@@ -167,3 +167,14 @@ section img#mountains_front
     width: 21%;
     height: 21%;
 }
+
+.sec img#Kucing
+{
+    position: relative;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    bottom: 189px;
+
+}
