@@ -168,13 +168,10 @@ section img#mountains_front
     height: 21%;
 }
 
-.sec img#smilecat
+.sec img#ayonim
 {
-    position: relative;
-    display: flex;
-    width: 20%;
-    height: 20%;
-    justify-content: center;
-    bottom: 189px;
-
+  position: fixed;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
 }
