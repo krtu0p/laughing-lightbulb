@@ -166,6 +166,7 @@ section img#mountains_front
     justify-content: center;
     width: 21%;
     height: 21%;
+    z-index: 10;
 }
 
 p img#ayonim
@@ -177,6 +178,7 @@ p img#ayonim
     justify-content: center;
     top: -79px;
     left: 303px;
+    z-index: 9;
 
 
 }
